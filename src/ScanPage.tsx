@@ -202,8 +202,8 @@ export default function ScanPage() {
 
         <EmergencyBar />
 
-        <button onClick={() => { setGate('request'); setGateErr(''); }} className="mt-4 w-full text-center text-xs text-slate-400 underline underline-offset-2 hover:text-slate-600">
-          Healthcare professional? Access full record
+        <button onClick={() => { setGate('request'); setGateErr(''); }} className="mt-4 w-full rounded-2xl border-2 border-[#0a2540] py-3 text-center text-base font-semibold text-[#0a2540] hover:bg-[#0a2540] hover:text-white transition">
+          Healthcare professional? View full medical record
         </button>
       </div>
     </Screen>
